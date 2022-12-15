@@ -1,0 +1,498 @@
+/*------------------------IMPORTACION DEL ARCHIVO NORMALIZE----------*/
+@import url(normalize.css);
+
+
+/* --------------- Estilo de fuente ----------------------------- */
+
+img {
+  width: 100%;
+  vertical-align: top;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+}
+/* --------------- Tamaño de fuente ----------------------------- */
+
+.titulares,.titulo-ultima-visita{
+  font-size: 24px;
+  font-weight:1000;
+  width: 100%;
+  margin: 1rem;
+}
+.barraBusqueda{
+  font-size: 12px;
+}
+.compraEnCuotasYsinTarjeta{
+  font-size: 12px;
+  font-weight: 900;
+}
+.nav-left, .nav-right{
+  font-size: 12px;
+  font-weight: 900;
+
+}
+.precios{
+  font-size: 18px;
+  margin-top: 1px;
+}
+
+.descuentos{
+  font-size: 16px;
+  color: var(--Verde);
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+
+
+/* --------------- HEADER ----------------------------- */
+:root{
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Grisoscuro: #666;
+    --Grisclaro: #ebebeb;
+    --Verde: #39b54a;
+}
+
+body{
+background-color: var(--Amarillo);
+}
+
+/*-------------ICONO DE MERCADO LIBRE------*/
+.iconoML {
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 35px;
+  }
+
+  /*-----------BARRA DE BUSQUEDA-------------*/
+  .barra-busqueda{
+    width: 100%;
+    background-color: var(--Grisclaro);
+  }
+
+  /*-----------------------------BANNER--------------------------*/
+  #banner{
+    width: 100vw;
+    margin-top: 15px;
+    margin-bottom: -17px;
+  }
+/*----------ICONO DE LUPA----------------*/
+  .fa-search {
+    
+  
+    margin-left: 6px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+   
+   
+    
+  }
+
+  .compraEnCuotasYsinTarjeta{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+  }
+
+  .compraEnCuotas li {
+    list-style: none;
+    margin-left: 0px;
+    
+  }
+
+  /*--------------MENU HAMBURGUESA-----------*/
+  .burger-menu{
+    background-color: var(--Celeste);
+    display: flex;
+    justify-content: center;
+    width: 22px;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px ;
+    border-bottom-left-radius: 4px ;
+    border-bottom-right-radius: 4px ;
+    
+  }
+
+
+  /*-------------FOOTER------------------------------------------*/
+
+
+.footer{
+  background-color: white;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+ 
+   background-color: white;
+   padding: 7px; 
+    border: solid 20px var(--Grisclaro);
+}  
+.copyright{
+  background-color: white;
+}
+  /*-----------ICONOS DEL FOOTER -------------------------------*/
+
+
+  .iconoCard{
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .iconoGift{
+    margin-bottom: 10px;
+   
+  }
+  .iconoSecurity{
+    margin-bottom: 10px;
+   
+  }
+  .fa-credit-card{
+    font-size: 2em;
+    color:var(--Celeste)
+  }
+
+  .fa-gift{
+    font-size: 2em;
+    color:var(--Celeste)
+  }
+
+  .fa-user-shield{
+    font-size: 2em;
+    color: var(--Celeste);
+  }
+
+
+  /*-----------TEXTO FOOTER------------------------*/
+
+  .footer{
+    text-align: center;
+    margin-bottom: -15px;
+    margin-top: 0px;
+    
+  }
+.tituloFooter{
+  margin-top: 10px;
+  margin-bottom: 1px;
+  padding: 1px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.parrafoFooter{
+  margin-top: 1mm;
+  margin-left: 105px;
+  margin-right: 105px;
+  margin-bottom: 10px;
+  font-size: 10px;
+  
+}
+
+.copyright{
+  font-size: 10px;
+  text-align:left
+}
+.fa-credit-card, .fa-gift, .fa-user-shield{
+  color: var(--Azul);
+  font-weight: 900;
+}
+  /*--------Se agrega animacion a iconos del footer: cambia de color al pasar el puntero del mouse*/
+
+.fa-credit-card:hover, .fa-gift:hover, .fa-user-shield:hover{
+color: var(--Celeste);
+
+}
+
+
+
+
+
+/*----------------------MAIN------------------------------*/
+.ultima-visita, .ofertas{
+  margin-top: 16px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+
+ 
+}
+main{
+  background-color: var(--Grisclaro);
+}
+.main{
+  width: 90%;
+  margin: auto;
+  
+}
+
+
+/*-------------------------PRODUCTOS------------------------*/
+.producto{
+  margin-bottom: 10px;
+ 
+  width: 100%;
+}
+
+.precio-descripcion{
+  background-color: white;
+  border-top: solid 1px var(--Grisclaro);
+  padding: 15px;
+  position: relative;
+ 
+}
+/*----------------ICONO DE COMPRAS (CAMION)--------------*/
+.fa-truck{
+  color:var(--Verde);
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  padding: 9px;
+  background-color: white;
+  border: solid 1px var(--Verde);
+  border-radius: 50%;
+  position: absolute;
+  right: 60px;
+  top: -16px;
+  
+}
+.titulo-articulo{
+  color: var(--Grisoscuro);
+  margin-top: 0px;
+}
+
+/*---------------Media queries-----------*/
+
+/*-----------Mobile---------------------------*/
+@media (min-width: 360px){
+.iconoML{
+  width: 40vw;
+  margin-left: 27px;
+  margin-right: 14px;
+
+  
+}
+/*-----------Logo ML + Barra de busqueda------------*/
+#header-mobile{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+}
+#header-tablet{
+  display: flex;
+}
+
+.texto-barraBusqueda{
+  margin-top: 1px;
+}
+.barraBusqueda{
+  margin-top: 48px;
+  width: 165px;
+}
+.titulo-articulo{
+  display: none;
+}
+.nav-left, .nav-right{
+  display: none;
+}
+.burger-menu{
+  margin-left: -46%;
+  margin-right: 28%;
+  margin-top: 5%;
+  margin-bottom: 0%;
+}
+.compraEnCuotasYsinTarjeta{
+ margin-top: 0px;
+}
+
+}
+/*---------------Tablet-------------------------*/
+@media (min-width: 481px){
+.ultima-visita, .ofertas{
+  
+  justify-content: space-between;
+} 
+.iconoML{
+  width: 30%;
+}
+.barraBusqueda{
+  width: 30%;
+}
+.producto{
+  width: 45%;
+}
+.compraEnCuotasYsinTarjeta{
+  width: 30%;
+  margin-top: 50px;
+}
+.burger-menu{
+  display: none;
+}
+.navegacion{
+  display: flex;
+}
+.nav-left{
+display: flex;
+justify-content: space-around;
+width: 45%;
+}
+.nav-right{
+
+  display: flex;
+  justify-content: space-around;
+  width: 48%;
+}
+.titulo-articulo{
+  display: none;
+}
+
+
+}
+
+/*----------Desktop-------------------*/
+
+@media(min-width:769px){
+  .iconoML{
+    width: 30%;
+  }
+  .precio-descripcion{
+    display: block;
+    
+  }
+  .titulo-articulo:hover{
+    display: block;
+  }
+
+  .product_img{
+    
+    margin-bottom: 2px;
+  }
+  .footer{
+    display: flex;
+  }
+  .copyright{
+    background-color: var(--Grisclaro);
+  }
+ 
+/*----------------Se agrega animacion box-shadow cuando el puntero del mouse pasa por la imagen-----*/
+  .producto:hover{
+    box-shadow: 0px 0px 10px rgb( 100 , 100 , 100 );
+    }
+
+/*------------ MUESTRA LA DESCRIPCION DEL ARTICULO CUANDO PASAS EL MOUSE-------*/
+ .producto:hover .titulo-articulo{
+  display: block;
+ }
+ 
+  .burger-menu{
+    display: none;
+  }
+
+  .producto{
+    width: 20%;
+  }
+}
+
+/*---------------Formulario Register----------------*/
+
+.nombre-ap-regist{
+  width: 2px;
+  padding: 20px;
+}
+
+.main-form{
+  background-color: var(--Grisclaro);
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: space-evenly;
+  height: 70vh;
+}
+
+.main-regist{
+  background-color: var(--Grisclaro);
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 25px;
+}
+.nombreApellido-reg, .usuario-reg, .email, .fecha-nac, .fechaNacimiento, .domicilio-reg{
+  margin-bottom: 0.5rem;
+}
+
+input{
+  border: none;
+  padding: 5px;
+  border-radius: 0%;
+  margin-bottom: 0.5rem;
+  
+}
+main { min-height: 112vh; }
+
+button{
+  background-color: var(--Azul);
+  color: white;
+  font-size: medium;
+  
+}
+.botones-env-can{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: -36px;
+}
+
+.fecha-nac, .perfil{
+  font-weight: 900;
+}
+.intereses-ul, .TipoDeUsuario, .intereses{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  margin-top: 0.5rem;
+}
+
+
+/*--------------------------Formulario Login-----------------*/
+
+.main-login{
+
+  display: flex;
+  
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+.login-usuario{
+  width: 70%;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+.boton-login{
+  margin-top: 1rem;
+  border-radius: 17px;
+}
+.campo-login, .boton-login{
+  width: 80%;
+}
+
+/*-------------------Animacion del icono del camion--------*/
+
+.producto:hover .fa-truck{
+  transition: transform 2s;
+  transform: rotate(360deg);
+  right: 0px;
+ 
+}
+

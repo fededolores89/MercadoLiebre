@@ -1,0 +1,14 @@
+/*------------------------IMPORTACION DEL ARCHIVO NORMALIZE----------*/
+@import url(normalize.css);
+
+/* --------------- Estilo de fuente ----------------------------- */
+
+img {
+    width: 100%;
+    vertical-align: top;
+  }
+  
+  body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+  }
